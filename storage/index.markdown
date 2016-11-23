@@ -151,6 +151,21 @@ If you work with the European cloud from Rackspace you have to add the following
 
 Then create, save, destroy as per fog-for-AWS. The `:public => true` option when creating directories (see above) is important for Rackspace; your folder and files won't be shared to Rackspace's CDN and hence your users without it.  Similarly the `:public =&gt; true` on files is important for AWS and Google or they will be private.
 
+## Azure Blob Storage
+
+Installing fog-for-Azure:
+
+    gem install fog-azure-rm
+
+Sign up for an Azure account <a href="https://azure.microsoft.com/en-us/free/">here</a> and create your storage account from <a href="https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Storage%2FStorageAccounts">here</a>. Copy down your access key under the settings "Access keys".
+
+    require 'fog/azurerm'
+    connection = Fog::Storage.new({
+      :provider                   => 'AzureRM',
+      :azure_storage_account_name => YOUR_STORAGE_ACCOUNT_NAME,
+      :azure_storage_access_key   => YOUR_STORAGE_ACCESS_KEY
+    })
+
 ## Local Storage
 
 While you are working out the kinks you might not want to do everything live though, ditto for while you are running tests, so you have a couple options to try before you buy.  First, you can use a local provider to store things in a directory on your machine.

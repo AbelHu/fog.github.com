@@ -7,6 +7,7 @@ title:  Supported Services
   <tr><th>provider</th><th>cdn</th><th>compute</th><th>dns</th><th>identity</th><th>storage</th><th>other</th></tr>
   <tr><th>atmos</th><td></td><td></td><td></td><td></td><td style='text-align: center;'>+</td><td></td></tr>
   <tr><th>aws</th><td style='text-align: center;'>+</td><td style='text-align: center;'>+</td><td style='text-align: center;'>+</td><td></td><td style='text-align: center;'>+</td><td>auto_scaling, beanstalk, cloud_formation, cloud_watch, dynamodb, elasticache, elb, emr, glacier, iam, rds, ses, simpledb, sns, sqs, sts</td></tr>
+  <tr><th>azure</th><td></td><td></td><td></td><td></td><td style='text-align: center;'>+</td><td></td></tr>
   <tr><th>baremetalcloud</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>
   <tr><th>bluebox</th><td></td><td style='text-align: center;'>+</td><td style='text-align: center;'>+</td><td></td><td></td><td></td></tr>
   <tr><th>brightbox</th><td></td><td style='text-align: center;'>+</td><td></td><td></td><td></td><td></td></tr>

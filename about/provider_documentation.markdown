@@ -35,6 +35,13 @@ In order to maximize the benefits of open source, you are encouraged submit bugs
      <td></td>
    </tr>
    <tr>
+     <td>Azure</td>
+     <td></td>
+     <td></td>
+     <td>Community</td>
+     <td></td>
+   </tr>
+   <tr>
      <td>BareMetalCloud</td>
      <td></td>
      <td></td>
